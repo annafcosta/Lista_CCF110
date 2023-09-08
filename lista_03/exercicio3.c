@@ -2,7 +2,7 @@
 
 int main()
 {
-    int N = 5;
+    int N = 10;
     int i, soma = 0;
     int notas[N];
     float media;
@@ -13,9 +13,9 @@ int main()
         soma += notas[i];
     }
 
-    media = soma / N;
+    media = (float) soma / N;
 
-    printf("%.6f\n", media);
+    printf("Media: %.6f\n", media);
 
     return 0;
 }
