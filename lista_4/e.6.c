@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// Faça um programa que preencha uma matriz 5 x 5, calcule e mostre a
+//média dos elementos da diagonal principal.
+
 int main()
 {
     int l = 5;

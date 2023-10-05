@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+// Criar um algoritmo que leia e armazene os elementos de uma matriz
+//inteira 10x10 e escreva as matrizes resultantes das seguintes trocas:
+// A segunda linha pela oitava linha;
+// A quarta coluna pela décima coluna;
+// A diagonal principal pela diagonal secundária.
+
 int main()
 {
     int l = 10;

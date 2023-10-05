@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+// Faça um algoritmo para ler valores reais e armazenar em uma matriz 5x5 e
+//depois salvar em outra matriz, também 5x5, o resultado do cubo dos
+//valores originais, nas mesmas posições.
+
 int main()
 {
     // Declarando as variáveis, l = linha da matriz e c = coluna;

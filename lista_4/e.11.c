@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+// Criar um algoritmo que possa armazenar em uma matriz as alturas de dez
+//atletas de cinco delegações que participarão dos jogos de verão (cada
+//delegação tem 10 atletas). Depois de preenchida a matriz, escrever a
+//maior altura de cada delegação.
+
 int main()
 {
     int alturas = 10, delegacoes = 5;
