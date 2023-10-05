@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+// A dona do salão Sempre Bela tem uma tabela em que registra quantas
+//vezes cada uma das suas cinco funcionárias realizaram cada um dos
+//serviços: corte, depilação e podologia. Sabendo-se que cada funcionária
+//ganha 50% do que faturou, criar um algoritmo que possa calcular e
+//escrever quanto cada uma vai receber; os valores de cada serviço são,
+//respectivamente R$10,00; R$15,00 e R$30,00. Dica: crie uma matriz
+//5x3, sendo uma linha para cada funcionária.
+
 int main()
 {
     int funcionarias = 5, servicos = 3;

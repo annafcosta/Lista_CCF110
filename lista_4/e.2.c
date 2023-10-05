@@ -1,4 +1,6 @@
 #include <stdio.h>
+// 2. Faça um programa que preencha uma matriz 3x5 com números inteiros,
+//calcule e exiba a quantidade de elementos com valores entre 15 e 20.
 
 int main()
 {

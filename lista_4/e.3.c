@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// Faça um algoritmo para ler valores reais e armazenar em uma matriz 5x5 e
+//depois imprima os elementos da diagonal principal.
+
 int main()
 {
     int l = 5;

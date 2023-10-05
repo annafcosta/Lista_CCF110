@@ -1,6 +1,12 @@
 
 #include <stdio.h>
 
+// 14. Criar um algoritmo que receba duas matrizes A (tamanho CxD) e B
+//(tamanho ExF) (com valores de C, D, E e F <= 6). Esse algoritmo deve
+//verificar se o produto matricial de A por B é possível (ou seja, se D = E).
+//Caso seja possível, calcular o tal produto, escrevendo a matriz G
+//(tamanho CxF) resultado.
+
 int main()
 {
     int C, D, E, F;

@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+// 13. Criar um algoritmo que leia uma matriz M de tamanho NxN e verifique e
+//mostre na saída se tal matriz é ou não simétrica (Mt = M, ou a matriz
+//original é igual à sua transposta).
+
 int main()
 {
     int N;

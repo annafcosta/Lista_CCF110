@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// Criar um algoritmo que leia os elementos de uma matriz inteira 10 x 10 e
+//escreva somente os elementos acima da diagonal principal.
+
 int main()
 {
     int l = 10;

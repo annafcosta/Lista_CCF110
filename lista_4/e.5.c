@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+// 5. Crie um programa que preencha duas matrizes (matrizA e matrizB) 3 x 5
+//com números inteiros, calcule e mostre:
+//a) A soma das duas matrizes, resultando em uma terceira matriz (matrizS)
+//também 3 x 5
+//b) A diferença das duas matrizes, resultando em uma quarta matriz (matrizD)
+//também 3 x 5
+
 int main()
 {
     int l = 3, c = 5;
