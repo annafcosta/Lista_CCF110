@@ -1,34 +1,18 @@
 #include <stdio.h>
-// 2. Faça um programa que preencha uma matriz 3x5 com números inteiros,
-//calcule e exiba a quantidade de elementos com valores entre 15 e 20.
 
-int main()
-{
-    // Declarando as variáveis, l = linha da matriz e c = coluna;
-    int l = 3, c = 5;
-    int matriz[l][c];
-    int qtd_elementos = 0;
+int main() {
 
-    for (int i = 0; i < l; ++i)
-    {
-        for (int j = 0; j < c; ++j)
-        {
-            scanf("%d", &matriz[i][j]);
-        }
-    }
+    short int v[5] = {2, 5, 1, 4, 0};
+    int v1[5] = {2, 5, 1, 4, 0};
+    char c[5] = {'a', 'b', 'm', '4', '-'};
+    float f[5] = {2.66, 0.125, 1.0, 4.99, 2.009};
+    double d[5] = {2.66, 0.125, 1.0, 4.99, 2.009};
 
-    for (int i = 0; i < l; ++i)
-    {
-        for (int j = 0; j < c; ++j)
-        {
-            if (matriz[i][j] >= 15 && matriz[i][j] <= 20) {
-                qtd_elementos++;
-            }
-        }
-    }
-
-    printf("%d \n", qtd_elementos);
+    printf("Tamanho em bytes de short int: %ld\n", (long)&v[1] - (long)&v[0]);
+    printf("Tamanho em bytes de int: %ld\n", (long)&v1[1] - (long)&v1[0]);
+    printf("Tamanho em bytes de char: %ld\n", (long)&c[1] - (long)&c[0]);
+    printf("Tamanho em bytes de float: %ld\n", (long)&f[1] - (long)&f[0]);
+    printf("Tamanho em bytes de double: %ld\n", (long)&d[1] - (long)&d[0]);
 
     return 0;
 }
-

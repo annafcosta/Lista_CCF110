@@ -1,45 +1,31 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct informacoes
+typedef struct Pessoa
 {
-    char nome[50];
+    char nome[100];
     char endereco[50];
     int numero;
-} tipo_informacoes;
+} Pessoa;
 
-int main(){
+int main() {
 
+    struct Pessoa pessoas[5];
+    int num_pessoas = 5;
 
-    tipo_informacoes end;
-    tipo_informacoes informacoes[5];
-
-    int i = 0;
-
-    while (i <= 4)
+    for (int i = 0; i < num_pessoas; i++)
     {
-        scanf("%s", &end.nome);
+        scanf("%s", pessoas[i].nome);
+        scanf("%s", pessoas[i].endereco);
+        scanf("%d", &pessoas[i].numero);
+    }
+
+    for (int i = 0; i < num_pessoas; i++)
+    {
+        printf("\n%s ", pessoas[i].nome);
+        printf("\n%s ", pessoas[i].endereco);
+        printf("\n%d\n", pessoas[i].numero);
     }
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     return 0;
 }
-
