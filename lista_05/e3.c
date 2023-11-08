@@ -15,12 +15,12 @@ int main() {
     // Leitura das coordenadas do segundo ponto
     scanf("%lf %lf", &ponto2.ponto_x, &ponto2.ponto_y);
 
-    // Cálculo da distância euclidiana
-    double distancia_x = ponto2.ponto_x - ponto1.ponto_x;
-    double distancia_y = ponto2.ponto_y - ponto1.ponto_y;
-    double dist_euclidiana = sqrt(distancia_x * distancia_x + distancia_y * distancia_y);
+    double distacia1 = pow(ponto2.ponto_x - ponto1.ponto_x, 2);
+    double distancia2 = pow(ponto2.ponto_y - ponto1.ponto_y, 2);
+    double dist_euclidiana = sqrt(distacia1 + distancia2);
 
-    printf("\n\n%.2lf\n", dist_euclidiana);
+
+    printf("%.2lf\n", dist_euclidiana);
 
     return 0;
 }
