@@ -12,8 +12,6 @@ typedef struct {
     int quantidade;
 } Pedido;
 
-
-
 int main() {
 
     Produtos produto[5];
@@ -22,29 +20,43 @@ int main() {
     for (i = 0; i < 5; i++)
     {
         scanf("%s", produto[i].nome);
-        scanf("%d", produto[i].codigo);
+        scanf("%d", &produto[i].codigo);
         scanf("%lf", &produto[i].preco);
-        scanf("%d", produto[i].quantidade);
+        scanf("%d", &produto[i].quantidade);
     }
 
     i = 0;
-    int qtd_produto = 0;
 
     Pedido pedidos;
 
-    while (produto[i].codigo != 0)
+    while (1)
     {
-        scanf("%d", pedidos.codigo);
-        scanf("%d", pedidos.quantidade);
+        scanf("%d", &pedidos.codigo);
 
-        if (produto[i].quantidade > qtd_produto)
-        {
-            
+        if (pedidos.codigo == 0) {
+            break; 
+        }
+
+        scanf("%d", &pedidos.quantidade);
+
+
+        for (i = 0; i < 5; i++) {
+            if (produto[i].codigo == pedidos.codigo) {
+                if (produto[i].quantidade >= pedidos.quantidade) {
+                    produto[i].quantidade -= pedidos.quantidade;
+                    printf("compra efetuada\n");
+                } else {
+                    printf("quantidade insuficiente\n");
+                }
+                break; 
+            }
+        }
+
+        if (i == 5) {
+            printf("nao encontrado\n");
         }
         
     }
     
-
-   
     return 0;
 }
