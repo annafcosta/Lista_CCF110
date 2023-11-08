@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct Pessoa
+typedef struct
 {
     char nome[100];
     char endereco[50];
@@ -10,22 +10,22 @@ typedef struct Pessoa
 
 int main() {
 
-    struct Pessoa pessoas[5];
-    int num_pessoas = 5;
+    Pessoa pessoas[5];
+    int i;
 
-    for (int i = 0; i < num_pessoas; i++)
+    for (i = 0; i < 5; i++)
     {
         scanf("%s", pessoas[i].nome);
         scanf("%s", pessoas[i].endereco);
         scanf("%d", &pessoas[i].numero);
     }
 
-    for (int i = 0; i < num_pessoas; i++)
+    for (i = 0; i < 5; i++)
     {
-        printf("\n%s ", pessoas[i].nome);
-        printf("\n%s ", pessoas[i].endereco);
-        printf("\n%d\n", pessoas[i].numero);
+        printf("%s\n", pessoas[i].nome);
+        printf("%s\n", pessoas[i].endereco);
+        printf("%d\n\n", pessoas[i].numero);
     }
-    
+
     return 0;
 }
