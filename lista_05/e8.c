@@ -1,35 +1,46 @@
 #include <stdio.h>
 
 typedef struct {
-    int codigo;
-    char descricao[50];
-    int estoque_minimo;
-    int estoque_atual;
-    double preco;
-} Informacoes;
+    int tipo;
+    char endereco[30];
+    char bairro[30];
+    double valor;
+    int situacao;
+} Imoveis;
 
 int main() {
-    int N;
-    scanf("%d", &N);
 
-    Informacoes dados[N];
+    int qtd_imoveis;
+    scanf("%d", &qtd_imoveis);
 
-    for (int i = 0; i < N; i++) {
-        scanf("%d", &dados[i].codigo);
-        scanf("%s", dados[i].descricao);
-        scanf("%d", &dados[i].estoque_atual);
-        scanf("%d", &dados[i].estoque_minimo);
-        scanf("%lf", &dados[i].preco);
+    Imoveis imovel[qtd_imoveis];
+    int i;
+
+    for (i = 0; i < qtd_imoveis; i++)
+    {
+        scanf("%d", &imovel[i].tipo);
+        scanf("%s", imovel[i].endereco);
+        scanf("%s", imovel[i].bairro);
+        scanf("%lf", &imovel[i].valor);
+        scanf("%d", &imovel[i].situacao);   
     }
 
-    for (int i = 0; i < N; i++) {
-        if (dados[i].estoque_atual > dados[i].estoque_minimo) {
-            printf("%d\n", dados[i].codigo);
-            printf("%s\n", dados[i].descricao);
-            printf("%d\n", dados[i].estoque_atual);
-            printf("%d\n", dados[i].estoque_minimo);
-            printf("%.2lf\n", dados[i].preco);
+    int usuario_escolha;
+
+    scanf("%d", &usuario_escolha);
+
+    for (i = 0; i < qtd_imoveis; i++)
+    {
+        if (imovel[i].situacao == usuario_escolha)
+        {
+            printf("%d\n", imovel[i].tipo);
+            printf("%s\n", imovel[i].endereco);
+            printf("%s\n", imovel[i].bairro);
+            printf("%.2lf\n", imovel[i].valor);
+            printf("%d\n", imovel[i].situacao); 
         }
+          
     }
+
     return 0;
 }
