@@ -25,7 +25,14 @@ void salvar_arquivo (int num_1, int num_2, char operacao, int resultado){
         return;
     }
 
-    fprintf(arquivo, "%d %c %d = %d\n", num_1, operacao, num_2, resultado);
+    if(operacao == 'A'){
+        fprintf(arquivo, "%d + %d = %d\n", num_1, num_2, resultado);
+    }
+
+    else if (operacao == 'S'){
+        fprintf(arquivo, "%d - %d = %d\n", num_1, num_2, resultado);
+    }
+
     fclose(arquivo);
 }
 
