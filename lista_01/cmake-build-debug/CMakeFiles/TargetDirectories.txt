@@ -1,0 +1,6 @@
+/home/anna/Codes/Lista_CCF110/lista_01/cmake-build-debug/CMakeFiles/listas_ccf110_1.dir
+/home/anna/Codes/Lista_CCF110/lista_01/cmake-build-debug/CMakeFiles/listas_ccf110_2.dir
+/home/anna/Codes/Lista_CCF110/lista_01/cmake-build-debug/CMakeFiles/listas_ccf110_3.dir
+/home/anna/Codes/Lista_CCF110/lista_01/cmake-build-debug/CMakeFiles/listas_ccf110_4.dir
+/home/anna/Codes/Lista_CCF110/lista_01/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/anna/Codes/Lista_CCF110/lista_01/cmake-build-debug/CMakeFiles/rebuild_cache.dir

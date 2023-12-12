@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.26)
+project(lista_4 C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(lista_4 main.c)
+add_executable(lista_4.2 e.2)
+add_executable(lista_4.3 e.3.c)
+add_executable(lista_4.4 e.4)
+add_executable(lista_4.5 e.5.c)
+add_executable(lista_4.6 e.6)
+add_executable(lista_4.7 e.7)
+add_executable(lista_4.8 e.8)
+add_executable(lista_4.9 e.9)
+add_executable(lista_4.10 e.10)
+add_executable(lista_4.11 e.11)
+add_executable(lista_4.12 e.12)
+add_executable(lista_4.13 e.13)
+add_executable(lista_4.14 e.14)
+add_executable(lista_4.sala e.1)
+

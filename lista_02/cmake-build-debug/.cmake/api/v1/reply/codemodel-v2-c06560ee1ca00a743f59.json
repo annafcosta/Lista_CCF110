@@ -1,0 +1,168 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lista_02",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lista_02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lista_02-Debug-47c0d34eb0d28eda84b0.json",
+					"name" : "lista_02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lista_02.10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lista_02.10-Debug-de0ba616a58e8c7317a0.json",
+					"name" : "lista_02.10",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lista_02.11::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lista_02.11-Debug-5d9e29d6663d67105f9e.json",
+					"name" : "lista_02.11",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lista_02.12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lista_02.12-Debug-b042674f29f526d341ed.json",
+					"name" : "lista_02.12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lista_02.13::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lista_02.13-Debug-f81817bfa5b158773610.json",
+					"name" : "lista_02.13",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lista_02.2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lista_02.2-Debug-3239668bd3da560f55ec.json",
+					"name" : "lista_02.2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lista_02.3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lista_02.3-Debug-795798eac58bd9513a01.json",
+					"name" : "lista_02.3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lista_02.4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lista_02.4-Debug-64a1e9dcc87f915871c8.json",
+					"name" : "lista_02.4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lista_02.5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lista_02.5-Debug-649b10caf6f23bac448b.json",
+					"name" : "lista_02.5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lista_02.6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lista_02.6-Debug-0dba0a7f364b8bb05623.json",
+					"name" : "lista_02.6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lista_02.7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lista_02.7-Debug-29501adab70b74033b3f.json",
+					"name" : "lista_02.7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lista_02.8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lista_02.8-Debug-3622c3828cbcd78410f0.json",
+					"name" : "lista_02.8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lista_02.9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lista_02.9-Debug-d20b4a247c5a4653b874.json",
+					"name" : "lista_02.9",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/anna/Codes/Lista_CCF110/lista_02/cmake-build-debug",
+		"source" : "/home/anna/Codes/Lista_CCF110/lista_02"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

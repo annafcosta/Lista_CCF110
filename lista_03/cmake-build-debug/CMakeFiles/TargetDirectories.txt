@@ -1,0 +1,3 @@
+/home/anna/Codes/Lista_CCF110/lista_03/cmake-build-debug/CMakeFiles/lista_03.dir
+/home/anna/Codes/Lista_CCF110/lista_03/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/anna/Codes/Lista_CCF110/lista_03/cmake-build-debug/CMakeFiles/rebuild_cache.dir

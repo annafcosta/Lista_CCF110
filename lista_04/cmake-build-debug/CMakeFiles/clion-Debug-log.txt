@@ -1,0 +1,13 @@
+/home/anna/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/anna/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/anna/PROG/Lista_CCF110/lista_4 -B /home/anna/PROG/Lista_CCF110/lista_4/cmake-build-debug
+-- Configuring done (0.0s)
+CMake Error at CMakeLists.txt:14 (add_executable):
+  Cannot find source file:
+
+    e.9
+
+
+CMake Error at CMakeLists.txt:14 (add_executable):
+  No SOURCES given to target: lista_4.9
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

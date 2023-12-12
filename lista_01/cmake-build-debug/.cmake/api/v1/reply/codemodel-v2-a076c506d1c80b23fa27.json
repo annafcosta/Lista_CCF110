@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "listas_ccf110",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "listas_ccf110_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-listas_ccf110_1-Debug-a7697cb18c7577feb556.json",
+					"name" : "listas_ccf110_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "listas_ccf110_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-listas_ccf110_2-Debug-2d9b60935cf7cbd3cc84.json",
+					"name" : "listas_ccf110_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "listas_ccf110_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-listas_ccf110_3-Debug-99778dcb09ee83344f43.json",
+					"name" : "listas_ccf110_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "listas_ccf110_4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-listas_ccf110_4-Debug-16333693eb80a7d954ca.json",
+					"name" : "listas_ccf110_4",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/anna/Codes/Lista_CCF110/lista_01/cmake-build-debug",
+		"source" : "/home/anna/Codes/Lista_CCF110/lista_01"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
